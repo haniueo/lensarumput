@@ -1,7 +1,6 @@
-[[redirects]]
-from = "/"
-to = "/index.tsx"
-status = 200
+[build]
+command = "npm run build"
+publish = "/public"
 
 [[plugins]]
 package = "@netlify/plugin-nextjs"
