@@ -86,12 +86,6 @@ export default function App({ Component, pageProps }: AppProps) {
 
     return (
         <>
-            <Head>
-                <title>{metaData.title}</title>
-                <link rel="manifest" crossOrigin="use-credentials" href="/manifest.json" />
-                <MetaTags metaData={metaData} />
-            </Head>
-
             <ScrollToTop>
                 <Component {...pageProps} id="component" />
             </ScrollToTop>
