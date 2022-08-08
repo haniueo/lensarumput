@@ -1,6 +1,6 @@
 [[redirects]]
-from = "/"
-to = "/index.html"
+from = "/*"
+to = "/index.tsx"
 status = 200
 
 [[plugins]]
