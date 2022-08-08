@@ -224,8 +224,6 @@ export default function Home() {
 
             <section id="about" className="relative w-full py-32">
                 <div className="relative container w-full h-full flex flex-col xl:flex-row items-start xl:items-center space-y-10 xl:space-y-0 xl:space-x-10 justify-center z-50">
-                    <AboutMeIllustration className="w-auto max-w-[589px] relative" data-aos="fade-up" />
-
                     <div className="text-black text-center space-y-8 max-w-lg 2xl:max-w-md rounded-3.5 p-0 md:p-8 2xl:p-0 relative">
                         <h1 className="font-baloo text-6xl" data-aos="fadeIn" data-aos-anchor-placement="center-bottom">
                             🏡 Desa Sumput
